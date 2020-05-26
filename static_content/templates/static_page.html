@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<style>
+{{ page.css|safe}}
+</style>
+{% endblock %}
+
+{% block content %}
+{{ page.html|safe}}
+{% endblock %}
+
+{% block scripts %}
+<script>
+{{ page.scripts|safe}}
+</script>
+{% endblock %}
